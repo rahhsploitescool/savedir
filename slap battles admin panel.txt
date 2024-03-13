@@ -1,0 +1,421 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local luahaxxaher = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local utgeh = Instance.new("TextLabel")
+local Godmode = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Gojo = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local wry = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local cod = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local NOISERR = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local NOISEERERERE = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local DENULL = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Thriller = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Helicopteremote = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local FEGUNE = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local laggegojo = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local utgeh_2 = Instance.new("TextLabel")
+
+--Properties:
+
+luahaxxaher.Name = "luahaxxaher"
+luahaxxaher.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+luahaxxaher.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = luahaxxaher
+Main.BackgroundColor3 = Color3.fromRGB(108, 14, 31)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.271130115, 0, 0.162520736, 0)
+Main.Size = UDim2.new(0, 926, 0, 320)
+
+utgeh.Name = "utgeh"
+utgeh.Parent = Main
+utgeh.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+utgeh.BorderColor3 = Color3.fromRGB(0, 0, 0)
+utgeh.BorderSizePixel = 0
+utgeh.Size = UDim2.new(0, 925, 0, 92)
+utgeh.Font = Enum.Font.Unknown
+utgeh.Text = "luxcy admin -luageek "
+utgeh.TextColor3 = Color3.fromRGB(0, 0, 0)
+utgeh.TextScaled = true
+utgeh.TextSize = 14.000
+utgeh.TextWrapped = true
+
+Godmode.Name = "Godmode"
+Godmode.Parent = Main
+Godmode.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+Godmode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Godmode.BorderSizePixel = 0
+Godmode.Position = UDim2.new(0.016198704, 0, 0.311377257, 0)
+Godmode.Size = UDim2.new(0, 200, 0, 50)
+Godmode.Font = Enum.Font.SourceSans
+Godmode.Text = "Godmode"
+Godmode.TextColor3 = Color3.fromRGB(0, 0, 0)
+Godmode.TextScaled = true
+Godmode.TextSize = 14.000
+Godmode.TextWrapped = true
+
+UICorner.Parent = Godmode
+
+Gojo.Name = "Gojo"
+Gojo.Parent = Main
+Gojo.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+Gojo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gojo.BorderSizePixel = 0
+Gojo.Position = UDim2.new(0.262419015, 0, 0.311377257, 0)
+Gojo.Size = UDim2.new(0, 200, 0, 50)
+Gojo.Font = Enum.Font.SourceSans
+Gojo.Text = "Hollow Purple"
+Gojo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gojo.TextScaled = true
+Gojo.TextSize = 14.000
+Gojo.TextWrapped = true
+
+UICorner_2.Parent = Gojo
+
+wry.Name = "wry"
+wry.Parent = Main
+wry.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+wry.BorderColor3 = Color3.fromRGB(0, 0, 0)
+wry.BorderSizePixel = 0
+wry.Position = UDim2.new(0.516198695, 0, 0.311377257, 0)
+wry.Size = UDim2.new(0, 200, 0, 50)
+wry.Font = Enum.Font.SourceSans
+wry.Text = "Rythmer"
+wry.TextColor3 = Color3.fromRGB(0, 0, 0)
+wry.TextScaled = true
+wry.TextSize = 14.000
+wry.TextWrapped = true
+
+UICorner_3.Parent = wry
+
+cod.Name = "cod"
+cod.Parent = Main
+cod.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+cod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cod.BorderSizePixel = 0
+cod.Position = UDim2.new(0.746220291, 0, 0.311377257, 0)
+cod.Size = UDim2.new(0, 200, 0, 50)
+cod.Font = Enum.Font.SourceSans
+cod.Text = "anti cod"
+cod.TextColor3 = Color3.fromRGB(0, 0, 0)
+cod.TextScaled = true
+cod.TextSize = 14.000
+cod.TextWrapped = true
+
+UICorner_4.Parent = cod
+
+NOISERR.Name = "NOISERR"
+NOISERR.Parent = Main
+NOISERR.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+NOISERR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NOISERR.BorderSizePixel = 0
+NOISERR.Position = UDim2.new(0.016198704, 0, 0.497005999, 0)
+NOISERR.Size = UDim2.new(0, 200, 0, 50)
+NOISERR.Font = Enum.Font.SourceSans
+NOISERR.Text = "WHATS THAT NOISE -FE"
+NOISERR.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOISERR.TextScaled = true
+NOISERR.TextSize = 14.000
+NOISERR.TextWrapped = true
+
+UICorner_5.Parent = NOISERR
+
+NOISEERERERE.Name = "NOISEERERERE"
+NOISEERERERE.Parent = Main
+NOISEERERERE.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+NOISEERERERE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NOISEERERERE.BorderSizePixel = 0
+NOISEERERERE.Position = UDim2.new(0.016198704, 0, 0.676646709, 0)
+NOISEERERERE.Size = UDim2.new(0, 200, 0, 50)
+NOISEERERERE.Font = Enum.Font.SourceSans
+NOISEERERERE.Text = "funny noise -CS"
+NOISEERERERE.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOISEERERERE.TextScaled = true
+NOISEERERERE.TextSize = 14.000
+NOISEERERERE.TextWrapped = true
+
+UICorner_6.Parent = NOISEERERERE
+
+DENULL.Name = "DENULL"
+DENULL.Parent = Main
+DENULL.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+DENULL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DENULL.BorderSizePixel = 0
+DENULL.Position = UDim2.new(0.262419015, 0, 0.676646709, 0)
+DENULL.Size = UDim2.new(0, 200, 0, 50)
+DENULL.Font = Enum.Font.SourceSans
+DENULL.Text = "Null"
+DENULL.TextColor3 = Color3.fromRGB(0, 0, 0)
+DENULL.TextScaled = true
+DENULL.TextSize = 14.000
+DENULL.TextWrapped = true
+
+UICorner_7.Parent = DENULL
+
+Thriller.Name = "Thriller"
+Thriller.Parent = Main
+Thriller.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+Thriller.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Thriller.BorderSizePixel = 0
+Thriller.Position = UDim2.new(0.746220291, 0, 0.497005999, 0)
+Thriller.Size = UDim2.new(0, 200, 0, 50)
+Thriller.Font = Enum.Font.SourceSans
+Thriller.Text = "thriller emote - Nw"
+Thriller.TextColor3 = Color3.fromRGB(0, 0, 0)
+Thriller.TextScaled = true
+Thriller.TextSize = 14.000
+Thriller.TextWrapped = true
+
+UICorner_8.Parent = Thriller
+
+Helicopteremote.Name = "Helicopter emote"
+Helicopteremote.Parent = Main
+Helicopteremote.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+Helicopteremote.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Helicopteremote.BorderSizePixel = 0
+Helicopteremote.Position = UDim2.new(0.516198695, 0, 0.676646709, 0)
+Helicopteremote.Size = UDim2.new(0, 200, 0, 50)
+Helicopteremote.Font = Enum.Font.SourceSans
+Helicopteremote.Text = "Helicopter emote - NW"
+Helicopteremote.TextColor3 = Color3.fromRGB(0, 0, 0)
+Helicopteremote.TextScaled = true
+Helicopteremote.TextSize = 14.000
+Helicopteremote.TextWrapped = true
+
+UICorner_9.Parent = Helicopteremote
+
+FEGUNE.Name = "FEGUNE"
+FEGUNE.Parent = Main
+FEGUNE.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+FEGUNE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FEGUNE.BorderSizePixel = 0
+FEGUNE.Position = UDim2.new(0.516198695, 0, 0.497005999, 0)
+FEGUNE.Size = UDim2.new(0, 200, 0, 50)
+FEGUNE.Font = Enum.Font.SourceSans
+FEGUNE.Text = "Fe Gun"
+FEGUNE.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEGUNE.TextScaled = true
+FEGUNE.TextSize = 14.000
+FEGUNE.TextWrapped = true
+
+UICorner_10.Parent = FEGUNE
+
+laggegojo.Name = "laggegojo"
+laggegojo.Parent = Main
+laggegojo.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+laggegojo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+laggegojo.BorderSizePixel = 0
+laggegojo.Position = UDim2.new(0.262419015, 0, 0.497005999, 0)
+laggegojo.Size = UDim2.new(0, 200, 0, 50)
+laggegojo.Font = Enum.Font.SourceSans
+laggegojo.Text = "Prefab lagger"
+laggegojo.TextColor3 = Color3.fromRGB(0, 0, 0)
+laggegojo.TextScaled = true
+laggegojo.TextSize = 14.000
+laggegojo.TextWrapped = true
+
+UICorner_11.Parent = laggegojo
+
+utgeh_2.Name = "utgeh"
+utgeh_2.Parent = Main
+utgeh_2.BackgroundColor3 = Color3.fromRGB(255, 17, 33)
+utgeh_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+utgeh_2.BorderSizePixel = 0
+utgeh_2.Position = UDim2.new(0, 0, 0.856249988, 0)
+utgeh_2.Size = UDim2.new(0, 926, 0, 46)
+utgeh_2.Font = Enum.Font.Unknown
+utgeh_2.Text = "fuck mirko king he skids"
+utgeh_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+utgeh_2.TextScaled = true
+utgeh_2.TextSize = 14.000
+utgeh_2.TextWrapped = true
+
+-- Scripts:
+
+local function TIMBY_fake_script() -- Godmode.LocalScript 
+	local script = Instance.new('LocalScript', Godmode)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-31.2869987, -5.17293787, -32.958889, 0.996679187, 2.65687117e-08, 0.0814286694, -2.31584725e-08, 1, -4.28245315e-08, -0.0814286694, 4.07965537e-08, 0.996679187)
+	end)
+end
+coroutine.wrap(TIMBY_fake_script)()
+local function TFYI_fake_script() -- Gojo.LocalScript 
+	local script = Instance.new('LocalScript', Gojo)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		game:GetService("ReplicatedStorage"):WaitForChild("RojoAbility"):FireServer("Charge")
+		wait(6)
+		game:GetService("ReplicatedStorage"):WaitForChild("RojoAbility"):FireServer("Release", {game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame})
+	end)
+	
+end
+coroutine.wrap(TFYI_fake_script)()
+local function ILWNUOG_fake_script() -- wry.LocalScript 
+	local script = Instance.new('LocalScript', wry)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(ILWNUOG_fake_script)()
+local function NKDE_fake_script() -- cod.LocalScript 
+	local script = Instance.new('LocalScript', cod)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		workspace.Arena.CubeOfDeathArea["the cube of death(i heard it kills)"].CanTouch = false
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(NKDE_fake_script)()
+local function CIJJKEE_fake_script() -- NOISERR.LocalScript 
+	local script = Instance.new('LocalScript', NOISERR)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		
+		while true do
+			wait() -- without any yielding (waiting), the game will crash
+			game.ReplicatedStorage.ErrorDeath:FireServer()
+		end
+	end)
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(CIJJKEE_fake_script)()
+local function VJJH_fake_script() -- NOISEERERERE.LocalScript 
+	local script = Instance.new('LocalScript', NOISEERERERE)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		
+		while true do
+			wait() -- without any yielding (waiting), the game will crash
+			game:GetService("ReplicatedStorage").b:FireServer("ReplicateSound_Zombie")
+		end
+	
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(VJJH_fake_script)()
+local function YCMXC_fake_script() -- DENULL.LocalScript 
+	local script = Instance.new('LocalScript', DENULL)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		game:GetService("ReplicatedStorage").NullAbility:FireServer()
+	end)
+	
+end
+coroutine.wrap(YCMXC_fake_script)()
+local function EUQTTT_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+	script.Parent.Parent.ResetOnSpawn = false
+end
+coroutine.wrap(EUQTTT_fake_script)()
+local function LRCQF_fake_script() -- Thriller.LocalScript 
+	local script = Instance.new('LocalScript', Thriller)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		Thriller:Play()
+	end)
+	
+end
+coroutine.wrap(LRCQF_fake_script)()
+local function FGMDO_fake_script() -- Helicopteremote.LocalScript 
+	local script = Instance.new('LocalScript', Helicopteremote)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		Helicopter:Play()
+	end)
+	
+end
+coroutine.wrap(FGMDO_fake_script)()
+local function IJNDYVM_fake_script() -- FEGUNE.LocalScript 
+	local script = Instance.new('LocalScript', FEGUNE)
+
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		while true do
+			wait() -- without any yielding (waiting), the game will crash
+			game:GetService("ReplicatedStorage"):WaitForChild("HitmanAbility"):FireServer("ReplicateGoldenRevolver",{0})
+		end
+		
+	end)
+	
+end
+coroutine.wrap(IJNDYVM_fake_script)()
+local function QWPGCD_fake_script() -- laggegojo.LocalScript 
+	local script = Instance.new('LocalScript', laggegojo)
+
+	
+	local button = script.Parent
+	button.MouseButton1Up:Connect(function()
+		while true do
+			wait() -- without any yielding (waiting), the game will crash
+			game:GetService("ReplicatedStorage"):WaitForChild("RojoAbility"):FireServer("Charge")
+		end
+	end)
+end
+coroutine.wrap(QWPGCD_fake_script)()
+local function YZVYO_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		Main.Visible = true
+	end)
+end
+coroutine.wrap(YZVYO_fake_script)()
