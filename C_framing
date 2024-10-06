@@ -1,0 +1,31 @@
+-- Variables
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local moveSpeed = 0.5 -- Adjust for how fast you want the CFrame movement to be
+local isMoving = false
+
+-- Function to move character forward with CFrame
+local function moveForward()
+    while isMoving do
+        -- Move the HumanoidRootPart forward based on its current look direction
+        humanoidRootPart.CFrame = humanoidRootPart.CFrame * CFrame.new(0, 0, -moveSpeed)
+        wait(0.01) -- Delay to control movement speed, adjust for smoother or faster movement
+    end
+end
+
+-- Toggle movement with the X key
+local UIS = game:GetService("UserInputService")
+UIS.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.X then
+        isMoving = true
+        moveForward()
+    end
+end)
+
+UIS.InputEnded:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.X then
+        isMoving = false
+    end
+end)
